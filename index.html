@@ -1,2 +1,142 @@
-<p> This is my new repository </p>
-<p> My name is Rohit Kumar </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cloud Kitchen - Cakes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #FFB6C1;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            padding: 1rem;
+            color: #FF69B4;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem;
+        }
+        #menu, #gallery, #testimonials {
+            background-color: #FFF;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #FF69B4;
+        }
+        .menu-item, .testimonial-item {
+            margin: 1rem 0;
+        }
+        #contact {
+            background-color: #f1f1f1;
+            text-align: center;
+            padding: 2rem;
+        }
+        footer {
+            background-color: #FF69B4;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        button {
+            background-color: #FF69B4;
+            color: white;
+            padding: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #FF1493;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Anvi cake House</h1>
+    <p>Delicious cakes delivered straight to your doorstep!</p>
+</header>
+
+<nav>
+    <a href="about.html">About Us</a>
+    <a href="menu.html">Menu</a>
+    <a href ="order.html">Order Online</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>We specialize in creating beautiful, delicious cakes made fresh daily with the finest ingredients. Whether it's for a birthday, wedding, or just a sweet treat, we've got the perfect cake for you!</p>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+        <h3>Chocolate Fudge Cake</h3>
+        <p>Rich chocolate cake layered with decadent fudge icing.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Red Velvet Cake</h3>
+        <p>A classic favorite with cream cheese frosting.</p>
+    </div>
+    <div class="menu-item">
+        <h3>Vanilla Sponge Cake</h3>
+        <p>Light and fluffy vanilla cake with buttercream frosting.</p>
+    </div>
+    <button onclick="orderNow()">Order Now</button>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <p>Check out some of our beautifully crafted cakes!</p>
+    <img src="cake1.jpg" alt="Chocolate Fudge Cake" width="300">
+    <img src="cake2.jpg" alt="Red Velvet Cake" width="300">
+    <img src="cake3.jpg" alt="Vanilla Sponge Cake" width="300">
+</section>
+
+<section id="testimonials">
+    <h2>Customer Testimonials</h2>
+    <div class="testimonial-item">
+        <p>"The best cake I've ever tasted! Will definitely order again!" – Sarah</p>
+    </div>
+    <div class="testimonial-item">
+        <p>"Fast delivery and absolutely delicious cakes. Highly recommend!" – John</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: rohitroy96080@gmail.com</p>
+    <p>Phone: 9065643286</p>
+</section>
+
+<footer>
+    <p>© Anvi Cake House . All rights reserved.</p>
+</footer>
+
+<script>
+    function orderNow() {
+        alert("Thank you for your interest! Please call us on  \n 9065643286\nto place an order. We will happy to serve you");
+    }
+</script>
+
+</body>
+</html>
